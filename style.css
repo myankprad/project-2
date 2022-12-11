@@ -1,0 +1,83 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+   
+}
+
+.navbar{
+    display: flex;
+    height: 65px;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+ 
+   
+}
+
+.navbar img{
+    width: 80px;
+    height: 25px;
+    margin-top: 12px;
+    margin-left: 30px;
+}
+.button-small{
+    margin-right: 50px;
+    height: 35px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(78, 34, 119);
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+
+.list{
+ display: flex;
+ gap: 50px;
+ text-decoration: none;
+ list-style: none;
+ margin-right: 450px;
+}
+
+.hero{
+    background: url(./assets/bg.png);
+    background-repeat: no-repeat;
+    height: 120vh;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.hero h1{
+    font-size: 100px;
+   padding-top: 80px;
+}
+.hero p{
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+.button-large{
+    margin-right: 50px;
+    height: 40px;
+    cursor: pointer;
+    display: inline-block;
+    background-color: rgb(78, 34, 119);
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 7px 16px;
+    line-height: 1.2;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+     margin-top: 40px;
+}
